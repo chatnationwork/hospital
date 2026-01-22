@@ -48,7 +48,7 @@ export default function Home() {
            <ActionCard 
              title="Agent" 
              icon="💬" 
-             href="https://wa.me/1234567890" 
+             href="https://wa.me/+254708427694" 
              external
              color="bg-green-100 text-green-600"
            />
