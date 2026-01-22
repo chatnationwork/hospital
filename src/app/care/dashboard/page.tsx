@@ -55,6 +55,42 @@ export default function CareDashboardPage() {
            </div>
         </div>
 
+       
+
+        {/* Quick Actions */}
+        <div className="space-y-3">
+           <Link href="/appointments" className="block bg-white p-4 rounded-xl shadow-sm border border-slate-100 active:scale-95 transition-transform">
+              <div className="flex items-center gap-3">
+                 <div className="w-10 h-10 rounded-full bg-blue-100 text-blue-600 flex items-center justify-center text-lg">📅</div>
+                 <div>
+                    <div className="font-bold text-gray-800">Book Follow-Up</div>
+                    <div className="text-xs text-gray-500">Schedule your next visit</div>
+                 </div>
+              </div>
+           </Link>
+           <Link href="https://wa.me/+254708427694" className="block bg-white p-4 rounded-xl shadow-sm border border-slate-100 active:scale-95 transition-transform">
+              <div className="flex items-center gap-3">
+                 <div className="w-10 h-10 rounded-full bg-green-100 text-green-600 flex items-center justify-center text-lg">💬</div>
+                 <div>
+                    <div className="font-bold text-gray-800">Talk to a Nurse</div>
+                    <div className="text-xs text-gray-500">Get help with recovery</div>
+                 </div>
+              </div>
+           </Link>
+        </div>
+
+         {/* Post-Visit Check-In */}
+        <div className="bg-teal-50 p-5 rounded-2xl border border-teal-100 mb-6">
+           <h3 className="font-bold text-teal-900 mb-3">How are you feeling?</h3>
+           <p className="text-sm text-teal-700 mb-4">Help us track your recovery</p>
+           <Link 
+             href="/feedback"
+             className="block w-full py-3 bg-teal-600 text-white font-bold rounded-xl text-center active:scale-95 transition-transform shadow-sm"
+           >
+             Share Feedback
+           </Link>
+        </div>
+
       </div>
     </div>
   );

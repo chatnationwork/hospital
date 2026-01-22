@@ -8,7 +8,7 @@ export default function Header() {
         <div className="w-8 h-8 bg-white/20 rounded-full flex items-center justify-center font-bold text-sm">
           H
         </div>
-        <h1 className="font-semibold text-lg">ABC Hospital</h1>
+        <h1 className="font-semibold text-lg">iHeal Hospital</h1>
       </div>
       
       {/* Optional: Profile or Help icon */}

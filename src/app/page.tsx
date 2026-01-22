@@ -46,6 +46,12 @@ export default function Home() {
              color="bg-indigo-100 text-indigo-600"
            />
            <ActionCard 
+             title="Feedback" 
+             icon="⭐" 
+             href="/feedback" 
+             color="bg-yellow-100 text-yellow-600"
+           />
+           <ActionCard 
              title="Agent" 
              icon="💬" 
              href="https://wa.me/+254708427694" 
